@@ -20,7 +20,6 @@ function App() {
         <Link to='add-product' >
           <button style={{marginRight: '0.5rem'}}>Add New Product</button>
         </Link>
-        {/* <button onClick={openModal}>Add New Product</button> */}
         <button style={{marginLeft: '0.5rem'}} onClick={fetchProducts}>Reload Products</button>
         {isModalOpen && <Modal isOpen={isModalOpen} onClose={closeModal} />}
         <ProductList />

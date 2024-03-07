@@ -1,18 +1,20 @@
 // Modal.js
 import React, { useState, useContext } from 'react';
 import { ProductContext } from '../context/ProductContext';
-
+import { Link, redirect, useNavigate } from 'react-router-dom';
 
 const Modal = ({ isOpen, onClose }) => {
   const { addProduct } = useContext(ProductContext);
   const [name, setName] = useState('');
   const [price, setPrice] = useState(0);
   const [image, setImage] = useState('');
-
+  const navigateTo = useNavigate();
   const handleSubmit = (e) => {
     e.preventDefault();
     addProduct({ name, price, image });
-    onClose();
+    navigateTo('/');
+    // return redirect('/')
+    // onClose();
   };
 
   return (
@@ -28,10 +30,10 @@ const Modal = ({ isOpen, onClose }) => {
           <input type="url" id="image" value={image} onChange={(e) => setImage(e.target.value)} required />
           <button type="submit">Add Product</button>
         </form>
-        {/* <Link to='/' >
+        <Link to='/' >
           <button>Close</button>
-        </Link> */}
-        <button onClick={onClose}>Close</button>
+        </Link>
+        {/* <button onClick={onClose}>Close</button> */}
       </div>
     </div>
   );

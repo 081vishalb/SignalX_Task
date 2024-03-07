@@ -4,7 +4,6 @@ import React, { createContext } from 'react';
 import { useMutation, useQuery, useQueryClient } from 'react-query';
 import { getData, postData } from '../apiCalls/apiCalls';
 
-// Create a Context for product data and actions
 const ProductContext = createContext({
     products: [],
     totalPages: 0,
@@ -13,9 +12,7 @@ const ProductContext = createContext({
     fetchProducts: () => { },
 });
 
-// Provider component to wrap the app and make context available
 const ProductProvider = ({ children }) => {
-    // Use react-query to fetch products
     const { data, isLoading, error, refetch } = useQuery(
         'products',
         getData,

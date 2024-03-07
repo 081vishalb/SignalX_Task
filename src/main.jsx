@@ -8,6 +8,8 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Modal from './components/Model.jsx';
+import { ProductProvider } from './context/ProductContext.jsx';
+
 
 const queryClient = new QueryClient();
 const router = createBrowserRouter([
@@ -17,7 +19,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/add-product",
-    element: <Modal />
+    element: <ProductProvider><Modal /></ProductProvider>
   }
 ]);
 
@@ -25,8 +27,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <QueryClientProvider client={queryClient}>
       <RouterProvider router={router} />
-      {/* <App /> */}
-      
     </QueryClientProvider>
   </React.StrictMode>,
 )

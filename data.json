@@ -77,6 +77,42 @@
       "name": "NEW pRODUCT test",
       "price": "3",
       "image": "https://www.npmjs.com/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci84MWJmM2M1OWE5ODNlYjhhMTdjNGIyNjBkNjdiYWU4NT9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.ydeJihTW2SAtHBvhc1mGOQm1nCnliwDs3F7CpARvf_U"
+    },
+    {
+      "id": "14",
+      "name": "Vineeth",
+      "price": "3",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fbeautiful%2F&psig=AOvVaw0BeZ1ZcFAnKVAoVBtVWgHX&ust=1709884597258000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCID7kdLW4YQDFQAAAAAdAAAAABAE"
+    },
+    {
+      "id": "15",
+      "name": "Testing",
+      "price": "7896",
+      "image": "https://www.npmjs.com/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci84MWJmM2M1OWE5ODNlYjhhMTdjNGIyNjBkNjdiYWU4NT9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.ydeJihTW2SAtHBvhc1mGOQm1nCnliwDs3F7CpARvf_U"
+    },
+    {
+      "id": "16",
+      "name": "NEW pRODUCT",
+      "price": "5946",
+      "image": "https://www.npmjs.com/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci84MWJmM2M1OWE5ODNlYjhhMTdjNGIyNjBkNjdiYWU4NT9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.ydeJihTW2SAtHBvhc1mGOQm1nCnliwDs3F7CpARvf_U"
+    },
+    {
+      "id": "17",
+      "name": "NEW pRODUCT",
+      "price": "5946",
+      "image": "https://www.npmjs.com/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci84MWJmM2M1OWE5ODNlYjhhMTdjNGIyNjBkNjdiYWU4NT9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.ydeJihTW2SAtHBvhc1mGOQm1nCnliwDs3F7CpARvf_U"
+    },
+    {
+      "id": "18",
+      "name": "VishalOrg",
+      "price": "2",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fbeautiful%2F&psig=AOvVaw0BeZ1ZcFAnKVAoVBtVWgHX&ust=1709884597258000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCID7kdLW4YQDFQAAAAAdAAAAABAE"
+    },
+    {
+      "id": "19",
+      "name": "NEW pRODUCT",
+      "price": "8888",
+      "image": "https://www.npmjs.com/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci84MWJmM2M1OWE5ODNlYjhhMTdjNGIyNjBkNjdiYWU4NT9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.ydeJihTW2SAtHBvhc1mGOQm1nCnliwDs3F7CpARvf_U"
     }
   ]
 }

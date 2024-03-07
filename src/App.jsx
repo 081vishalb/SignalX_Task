@@ -4,6 +4,7 @@ import Header from './components/Header';
 import ProductList from './components/ProductList';
 import Modal from './components/Model';
 import { ProductContext } from './context/ProductContext';
+import { Link } from 'react-router-dom';
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -16,7 +17,10 @@ function App() {
     <ProductProvider>
       <div className="App">
         <Header />
-        <button onClick={openModal}>Add New Product</button>
+        <Link to='add-product' >
+          <button >Add New Product</button>
+        </Link>
+        {/* <button onClick={openModal}>Add New Product</button> */}
         <button onClick={fetchProducts}>Reload Products</button>
         {isModalOpen && <Modal isOpen={isModalOpen} onClose={closeModal} />}
         <ProductList />

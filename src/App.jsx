@@ -8,7 +8,6 @@ import { Link } from 'react-router-dom';
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
-
   const openModal = () => setIsModalOpen(true);
   const closeModal = () => setIsModalOpen(false);
   const { fetchProducts } = useContext(ProductContext);

@@ -41,9 +41,9 @@ const ProductProvider = ({ children }) => {
 
 
     const spinner = isLoading != undefined && isLoading != null ? isLoading : false;
-    const products = data ? data : []; 
-   const totalPages = data ? Math.ceil(data.length / 5) : 0 
-    const currentPage = 1; 
+    const products = data ? data : [];
+    const totalPages = data ? Math.ceil(data.length / 5) : 0
+    const currentPage = 1;
 
     const addProduct = async (product) => {
         const newProductList = { id: String(products.length + 1), ...product };

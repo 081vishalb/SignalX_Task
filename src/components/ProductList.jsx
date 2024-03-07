@@ -2,6 +2,8 @@
 import React, { useState, useEffect, lazy, Suspense } from 'react';
 import { useContext } from 'react';
 import { ProductContext } from '../context/ProductContext';
+import styles from './styles.module.scss';
+
 const ProductItem = lazy(() => import('./ProductItem'));
 
 const ProductList = () => {
@@ -20,10 +22,12 @@ const ProductList = () => {
   const paginatedProducts = products.slice(pageStart, pageEnd);
   return (
     <div>
-      <div className='product-list' style={{ paddingtop: '1rem', display: 'flex', width: '100%' }}>
+      <div className={styles.productList} style={{ display: 'flex', flexWrap: 'wrap', paddingTop: '3rem' }}>
         {paginatedProducts.map((product) => (
           <Suspense fallback={<h1>Loading...</h1>}>
-            <ProductItem key={product.id} product={product} />
+            <div style={{ width: '20%' }}>
+              <ProductItem key={product.id} product={product} />
+            </div>
           </Suspense>
         ))}
       </div>

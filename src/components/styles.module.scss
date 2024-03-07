@@ -12,3 +12,37 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
 }
+
+
+
+
+/* General styles for all screen sizes */
+.productList {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+}
+
+/* Styles for screens wider than 768px */
+@media (min-width: 768px) {
+    .productItem {
+        width: 20%;
+        /* Maintain 5 items per line */
+    }
+}
+
+/* Styles for screens between 480px and 767px */
+@media (min-width: 480px) and (max-width: 767px) {
+    .productItem {
+        width: 33.33%;
+        /* Adjust width for 3 items per line */
+    }
+}
+
+/* Styles for screens narrower than 480px */
+@media (max-width: 479px) {
+    .productItem {
+        width: 50%;
+        /* Adjust width for 2 items per line */
+    }
+}

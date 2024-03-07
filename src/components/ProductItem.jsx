@@ -1,9 +1,12 @@
 import React from 'react';
+import '../App.css';
+import styles from './styles.module.scss'
+
 
 const ProductItem = ({ product }) => {
   return (
     <>
-      <div className="product-item" style={{ width: '32%' }}>
+      <div className={styles.productItem} style={{ }}>
         <img
           src={product.image}
           alt={product.name}

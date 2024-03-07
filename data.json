@@ -2,117 +2,63 @@
   "products": [
     {
       "id": "1",
-      "name": "VishalOrg 1",
-      "price": "3",
-      "image": "https://cdn4.vectorstock.com/i/1000x1000/70/88/website-online-internet-icon-global-url-vector-28477088.jpg"
+      "name": "Product 1",
+      "price": "84512",
+      "image": "https://avatars.githubusercontent.com/u/57751243?s=80&v=4"
     },
     {
       "id": "2",
-      "name": "VishalOrg 2",
-      "price": "5",
-      "image": "https://cdn4.vectorstock.com/i/1000x1000/70/88/website-online-internet-icon-global-url-vector-28477088.jpg"
+      "name": "product 2",
+      "price": "8999",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGYRSLeNC4f0bfUwS-1LtT_DYmCBCuOMfYMg&usqp=CAU"
     },
     {
       "id": "3",
-      "name": "VishalOrg 3",
-      "price": "5",
-      "image": "https://www.npmjs.com/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci9kZTcyM2I3YWViODZjMzI1ZDUwOGU3NGQyNWFjYzIxMT9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.JWPBQYdFxH__mCs0EnhbDPRYBG0JVa5lWE_VAENfXl4"
+      "name": "Product 3",
+      "price": "852",
+      "image": "https://avatars.githubusercontent.com/u/143608856?s=80&v=4"
     },
     {
       "id": "4",
-      "name": "VishalOrg 4",
-      "price": "10",
-      "image": "https://www.npmjs.com/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci84MWJmM2M1OWE5ODNlYjhhMTdjNGIyNjBkNjdiYWU4NT9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.ydeJihTW2SAtHBvhc1mGOQm1nCnliwDs3F7CpARvf_U"
+      "name": "product4",
+      "price": "9852",
+      "image": "https://avatars.githubusercontent.com/u/15673912?s=80&v=4"
     },
     {
       "id": "5",
-      "name": "VishalOrg 5",
-      "price": "13",
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Fangular%2Fangular%2Fissues%2F17957&psig=AOvVaw2I67BT5eC4EUsbNc6qsKPN&ust=1709814789421000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCPC_0MvS34QDFQAAAAAdAAAAABAi"
+      "name": "product 5",
+      "price": "68451",
+      "image": "https://avatars.githubusercontent.com/u/12894640?s=80&v=4"
     },
     {
       "id": "6",
-      "name": "VishalOrg 6",
-      "price": "13",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbv_zoQp6aSxaFpKZjXTgitcnhTgR9nbrlMHqOJjv_EgKLvH0rpXCR9gBhql-EFBrQdx8&usqp=CAU"
+      "name": "Product 6",
+      "price": "98562",
+      "image": "https://avatars.githubusercontent.com/u/56533379?s=80&v=4"
     },
     {
       "id": "7",
-      "name": "VishalOrg 7",
-      "price": "17",
-      "image": "https://avatars.githubusercontent.com/u/69222051?s=80&v=4"
+      "name": "Product 7",
+      "price": "946512",
+      "image": "https://avatars.githubusercontent.com/u/15673912?s=80&v=4"
     },
     {
       "id": "8",
-      "name": "NEW pRODUCT 8",
-      "price": "-5",
-      "image": "https://www.npmjs.com/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci84MWJmM2M1OWE5ODNlYjhhMTdjNGIyNjBkNjdiYWU4NT9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.ydeJihTW2SAtHBvhc1mGOQm1nCnliwDs3F7CpARvf_U"
+      "name": "product 8",
+      "price": "68451",
+      "image": "https://avatars.githubusercontent.com/u/12894640?s=80&v=4"
     },
     {
       "id": "9",
-      "name": "Vishal Bagelikar",
-      "price": "5",
-      "image": "https://www.productcaregroup.com/static/media/about-us.142e066038301169f4e8.jpg"
+      "name": "product 9",
+      "price": "68451",
+      "image": "https://avatars.githubusercontent.com/u/15673912?s=80&v=4"
     },
     {
       "id": "10",
-      "name": "Vineeth",
-      "price": "4",
-      "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFwAXAMBIgACEQEDEQH/xAAbAAAABwEAAAAAAAAAAAAAAAAAAQIDBAUGB//EAD4QAAEDAgMFAwYLCQAAAAAAAAEAAgMEEQUSIQYTMUFRYXGBByJikaGxFCMyMzRCUlOCksE1Q3KUorLC0fD/xAAYAQADAQEAAAAAAAAAAAAAAAAAAgMBBP/EAB4RAAIDAAIDAQAAAAAAAAAAAAABAgMRITEEEkFR/9oADAMBAAIRAxEAPwDaiMJeQIQyNlhbLE4Oje0Oa4cCDwKW3gpFNGy2wTbgpDuCaKxmk6k0gCocc/acB9Eq/pPmQqDHzlxGnJPIqj6RL6yO/gmzoETpB1HrTb3g8x60GFhhrbsleRx0CyflHnyYZTQNPnPJeR2BbOlbu6UNtqW+9c82/vPiLo8191TtYB2nUoueVjeOtsIPk4oHGfEauVgs5jGA97tVtcHbJDQiCVvnwudG7wKY2dw0UWz7mluUyZfH/rqBtTVVmF4pu6UktliZI7S/nWy/4ppVe8EhY3KFjZqaSspsHqJsMq5mxMbeWlLja8RPyR/CSRboWqUMaw0mwrIr96q9t8NdiGEGop25qqjJmjDeLxbzm+I9oC5t8Pc9ocw3BFwRzCkZba4HZoaqnqB8RNHIejXAoyuITYhVU5E9NM+KRuoc0rpmxO0Jx/Ci6Yt+FwHJKG8+h8UM2q5T4NjSX3I0VNjeFNxKrgL3ubunX808VcUZtCL6d6Zm+kE9iZ9IZLllWcApvtP/ADJt2z1MfryfmVwXAC5OiZllDgWxO5cU0Vor4"
-    },
-    {
-      "id": "11",
-      "name": "DFDSFDS",
-      "price": "3",
-      "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFwAXAMBIgACEQEDEQH/xAAbAAAABwEAAAAAAAAAAAAAAAAAAQIDBAUGB//EAD4QAAEDAgMFAwYLCQAAAAAAAAEAAgMEEQUSIQYTMUFRYXGBByJikaGxFCMyMzRCUlOCksE1Q3KUorLC0fD/xAAYAQADAQEAAAAAAAAAAAAAAAAAAgMBBP/EAB4RAAIDAAIDAQAAAAAAAAAAAAABAgMRITEEEkFR/9oADAMBAAIRAxEAPwDaiMJeQIQyNlhbLE4Oje0Oa4cCDwKW3gpFNGy2wTbgpDuCaKxmk6k0gCocc/acB9Eq/pPmQqDHzlxGnJPIqj6RL6yO/gmzoETpB1HrTb3g8x60GFhhrbsleRx0CyflHnyYZTQNPnPJeR2BbOlbu6UNtqW+9c82/vPiLo8191TtYB2nUoueVjeOtsIPk4oHGfEauVgs5jGA97tVtcHbJDQiCVvnwudG7wKY2dw0UWz7mluUyZfH/rqBtTVVmF4pu6UktliZI7S/nWy/4ppVe8EhY3KFjZqaSspsHqJsMq5mxMbeWlLja8RPyR/CSRboWqUMaw0mwrIr96q9t8NdiGEGop25qqjJmjDeLxbzm+I9oC5t8Pc9ocw3BFwRzCkZba4HZoaqnqB8RNHIejXAoyuITYhVU5E9NM+KRuoc0rpmxO0Jx/Ci6Yt+FwHJKG8+h8UM2q5T4NjSX3I0VNjeFNxKrgL3ubunX808VcUZtCL6d6Zm+kE9iZ9IZLllWcApvtP/ADJt2z1MfryfmVwXAC5OiZllDgWxO5cU0Vor4"
-    },
-    {
-      "id": "12",
-      "name": "DFDSFDS",
-      "price": "3",
-      "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFwAXAMBIgACEQEDEQH/xAAbAAAABwEAAAAAAAAAAAAAAAAAAQIDBAUGB//EAD4QAAEDAgMFAwYLCQAAAAAAAAEAAgMEEQUSIQYTMUFRYXGBByJikaGxFCMyMzRCUlOCksE1Q3KUorLC0fD/xAAYAQADAQEAAAAAAAAAAAAAAAAAAgMBBP/EAB4RAAIDAAIDAQAAAAAAAAAAAAABAgMRITEEEkFR/9oADAMBAAIRAxEAPwDaiMJeQIQyNlhbLE4Oje0Oa4cCDwKW3gpFNGy2wTbgpDuCaKxmk6k0gCocc/acB9Eq/pPmQqDHzlxGnJPIqj6RL6yO/gmzoETpB1HrTb3g8x60GFhhrbsleRx0CyflHnyYZTQNPnPJeR2BbOlbu6UNtqW+9c82/vPiLo8191TtYB2nUoueVjeOtsIPk4oHGfEauVgs5jGA97tVtcHbJDQiCVvnwudG7wKY2dw0UWz7mluUyZfH/rqBtTVVmF4pu6UktliZI7S/nWy/4ppVe8EhY3KFjZqaSspsHqJsMq5mxMbeWlLja8RPyR/CSRboWqUMaw0mwrIr96q9t8NdiGEGop25qqjJmjDeLxbzm+I9oC5t8Pc9ocw3BFwRzCkZba4HZoaqnqB8RNHIejXAoyuITYhVU5E9NM+KRuoc0rpmxO0Jx/Ci6Yt+FwHJKG8+h8UM2q5T4NjSX3I0VNjeFNxKrgL3ubunX808VcUZtCL6d6Zm+kE9iZ9IZLllWcApvtP/ADJt2z1MfryfmVwXAC5OiZllDgWxO5cU0Vor4"
-    },
-    {
-      "id": "13",
-      "name": "NEW pRODUCT test",
-      "price": "3",
-      "image": "https://www.npmjs.com/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci84MWJmM2M1OWE5ODNlYjhhMTdjNGIyNjBkNjdiYWU4NT9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.ydeJihTW2SAtHBvhc1mGOQm1nCnliwDs3F7CpARvf_U"
-    },
-    {
-      "id": "14",
-      "name": "Vineeth",
-      "price": "3",
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fbeautiful%2F&psig=AOvVaw0BeZ1ZcFAnKVAoVBtVWgHX&ust=1709884597258000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCID7kdLW4YQDFQAAAAAdAAAAABAE"
-    },
-    {
-      "id": "15",
-      "name": "Testing",
-      "price": "7896",
-      "image": "https://www.npmjs.com/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci84MWJmM2M1OWE5ODNlYjhhMTdjNGIyNjBkNjdiYWU4NT9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.ydeJihTW2SAtHBvhc1mGOQm1nCnliwDs3F7CpARvf_U"
-    },
-    {
-      "id": "16",
-      "name": "NEW pRODUCT",
-      "price": "5946",
-      "image": "https://www.npmjs.com/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci84MWJmM2M1OWE5ODNlYjhhMTdjNGIyNjBkNjdiYWU4NT9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.ydeJihTW2SAtHBvhc1mGOQm1nCnliwDs3F7CpARvf_U"
-    },
-    {
-      "id": "17",
-      "name": "NEW pRODUCT",
-      "price": "5946",
-      "image": "https://www.npmjs.com/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci84MWJmM2M1OWE5ODNlYjhhMTdjNGIyNjBkNjdiYWU4NT9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.ydeJihTW2SAtHBvhc1mGOQm1nCnliwDs3F7CpARvf_U"
-    },
-    {
-      "id": "18",
-      "name": "VishalOrg",
-      "price": "2",
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fbeautiful%2F&psig=AOvVaw0BeZ1ZcFAnKVAoVBtVWgHX&ust=1709884597258000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCID7kdLW4YQDFQAAAAAdAAAAABAE"
-    },
-    {
-      "id": "19",
-      "name": "NEW pRODUCT",
-      "price": "8888",
-      "image": "https://www.npmjs.com/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci84MWJmM2M1OWE5ODNlYjhhMTdjNGIyNjBkNjdiYWU4NT9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.ydeJihTW2SAtHBvhc1mGOQm1nCnliwDs3F7CpARvf_U"
+      "name": "Product 10",
+      "price": "78451",
+      "image": "https://avatars.githubusercontent.com/u/143608856?s=80&v=4"
     }
   ]
 }

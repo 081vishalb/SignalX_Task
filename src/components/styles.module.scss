@@ -26,7 +26,7 @@
 /* Styles for screens wider than 768px */
 @media (min-width: 768px) {
     .productItem {
-        width: 20%;
+        width: auto;
         /* Maintain 5 items per line */
     }
 }

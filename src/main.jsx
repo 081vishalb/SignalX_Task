@@ -15,7 +15,7 @@ const queryClient = new QueryClient();
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <ProductProvider><App /></ProductProvider>,
   },
   {
     path: "/add-product",

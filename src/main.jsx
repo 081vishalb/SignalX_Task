@@ -4,29 +4,37 @@ import App from './App.jsx'
 import './index.css'
 import { QueryClient, QueryClientProvider } from 'react-query';
 import {
-  createBrowserRouter,
+  HashRouter,
+  Route,
   RouterProvider,
+  Routes,
 } from "react-router-dom";
 import Modal from './components/Model.jsx';
 import { ProductProvider } from './context/ProductContext.jsx';
 
 
 const queryClient = new QueryClient();
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <ProductProvider><App /></ProductProvider>,
-  },
-  {
-    path: "/add-product",
-    element: <ProductProvider><Modal /></ProductProvider>
-  }
-]);
+// const router = createBrowserRouter([
+//   {
+//     path: "/",
+//     element: <ProductProvider><App /></ProductProvider>,
+//   },
+//   {
+//     path: "/add-product",
+//     element: <ProductProvider><Modal /></ProductProvider>
+//   }
+// ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <QueryClientProvider client={queryClient}>
-      <RouterProvider router={router} />
+      {/* <RouterProvider router={router} /> */}
+      <HashRouter>
+        <Routes>
+          <Route path='/' element={<ProductProvider><App /></ProductProvider>} />
+          <Route path='/add-product' element={<ProductProvider><Modal /></ProductProvider>} />
+        </Routes>
+      </HashRouter>
     </QueryClientProvider>
   </React.StrictMode>,
 )

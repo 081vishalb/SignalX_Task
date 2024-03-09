@@ -6,7 +6,6 @@ import { QueryClient, QueryClientProvider } from 'react-query';
 import {
   HashRouter,
   Route,
-  RouterProvider,
   Routes,
 } from "react-router-dom";
 import Modal from './components/Model.jsx';

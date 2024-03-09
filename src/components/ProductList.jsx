@@ -19,17 +19,20 @@ const ProductList = () => {
   const productsPerPage = 5;
   const pageStart = (currentPage - 1) * productsPerPage;
   const pageEnd = Math.min(currentPage * productsPerPage, products.length);
-  const paginatedProducts = products.slice(pageStart, pageEnd);
+  const sortedArray = products.sort((a, b) => parseInt(b.id) - parseInt(a.id));
+  const paginatedProducts = sortedArray.slice(pageStart, pageEnd);
+
+
   return (
     <div>
       <div className={styles.productList} style={{ display: 'flex', flexWrap: 'wrap', paddingTop: '3rem' }}>
-        {paginatedProducts.map((product) => (
-          <Suspense fallback={<h1>Loading...</h1>}>
-            <div style={{ width: '20%' }}>
+        <Suspense fallback={<h1>Loading...</h1>}>
+          {paginatedProducts.map((product) => (
+            <div key={product.id} style={{ width: '20%' }}>
               <ProductItem key={product.id} product={product} />
             </div>
-          </Suspense>
-        ))}
+          ))}
+        </Suspense>
       </div>
 
       <div>
